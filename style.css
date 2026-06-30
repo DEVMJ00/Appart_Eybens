@@ -59,13 +59,13 @@ body {
 .section h2 {
   margin-top: 0;
   color: #6260FF;
-  font-size: 0.8rem;
+  font-size: 16px;
 }
 
 .section h3 {
   margin-top: 8px;
   margin-bottom: 3px;
-  font-size: 0.8rem;
+  font-size: 12px;
   color: darkgrey;
 }
 
@@ -164,7 +164,7 @@ nav {
   flex-wrap: wrap;
   gap: 12px;
   padding: 16px;
-  background: #E4E4FF;
+  background: white;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
@@ -172,7 +172,7 @@ nav {
 nav a {
   text-decoration: none;
   color: #6260FF;
- /* background: #E4E4FF;*/
+  background: #E4E4FF;
   padding: 10px 16px;
   border-radius: 8px;
   font-size: 0.95rem;
