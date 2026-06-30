@@ -163,8 +163,8 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #333;
-  background: #E4E4FF;
+  color: #6260FF;
+ /* background: #E4E4FF;*/
   padding: 10px 16px;
   border-radius: 8px;
   font-size: 0.95rem;
@@ -176,8 +176,8 @@ nav a {
 }
 
 nav a:hover {
-  background: #333;
-  color: #6260FF;
+  background: #6260FF;
+  color: #E4E4FF;
   transform: translateY(-2px);
 }
 
