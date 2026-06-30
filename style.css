@@ -187,9 +187,6 @@ nav a:active {
 @media (max-width: 600px) {
   nav {
     justify-content: center;
-    position: sticky;
-    top: 10px;
-    z-index: 1000;
   }
 
   nav a {
