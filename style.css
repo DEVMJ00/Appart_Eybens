@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   background: #f4f4f4;
   color: #222;
+  line-height: 1.6;
 }
 
 /* HERO */
@@ -40,7 +43,7 @@ body {
 }
 
 .price {
-  font-size: 34px;
+  font-size: 38px;
   font-weight: bold;
   margin-top: 15px;
 }
@@ -59,13 +62,13 @@ body {
 .section h2 {
   margin-top: 0;
   color: #6260FF;
-  font-size: 16px;
+  font-size: 0.9em;
 }
 
 .section h3 {
   margin-top: 8px;
   margin-bottom: 3px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: darkgrey;
 }
 
