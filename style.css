@@ -211,8 +211,8 @@ nav a:active {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #E4E4FF;
-  color: #6260FF;
+  background: #6260FF;
+  color: #E4E4FF;
   padding: 14px 14px;
   border-radius: 999px;
   text-decoration: none;
