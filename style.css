@@ -205,18 +205,37 @@ nav a:active {
   }
 }
 
-
-
-#call{
+#call {
   position: fixed;
-  bottom: 20px;
   right: 20px;
+  bottom: 20px;
+
   background: #6260FF;
   color: #E4E4FF;
-  padding: 14px 14px;
+
+  padding: 14px 18px;
   border-radius: 999px;
+
   text-decoration: none;
-  font-weight: bold;
-  visibility: hidden;
+  font-weight: 700;
+
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+  opacity: 0;
+  transform: translateY(20px);
+
+  pointer-events: none;
+
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+
+  z-index: 999;
 }
+
+#call.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
