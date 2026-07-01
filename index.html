@@ -222,6 +222,18 @@
 <footer>
   <p>Annonce non contractuelle – informations données à titre indicatif</p>
 </footer>
+<script>
 
+	const topButton = document.getElementById("contact");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 800) {
+        topButton.classList.add("show");
+    } else {
+        topButton.classList.remove("show");
+    }
+});
+</script>
+	
 </body>
 </html>
