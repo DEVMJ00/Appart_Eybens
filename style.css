@@ -162,6 +162,7 @@ caption { caption-side: top; margin-bottom: 1em; font-style: italic; }
 
 nav {
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 12px;
   padding: 16px;
