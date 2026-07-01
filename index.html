@@ -211,29 +211,32 @@
     Charges mensuelles : €. <br>
   </p>
 </section>
+<a id="call" href="tel:+33674648976">
+  ☎️ Appeler
+</a>
 
-<section id="contact" class="section">
-		<a id="call" class="call-button" href="tel:+33674648976">
- ☎️ Appeler
-		</a>
-
-</section>
-	  
+	
 <footer>
   <p>Annonce non contractuelle – informations données à titre indicatif</p>
 </footer>
-<script>
 
-	const call = document.getElementById("call");
+	
+<script>
+const callBtn = document.getElementById("call");
 
 window.addEventListener("scroll", () => {
-    if (window.scrollY > 800) {
-        call.classList.add("show");
-    } else {
-        call.classList.remove("show");
-    }
+  if (window.scrollY > 300) {
+    callBtn.classList.add("show");
+  } else {
+    callBtn.classList.remove("show");
+  }
 });
 </script>
+		<a id="call" href="tel:+33674648976">
+ ☎️ RDV
+		</a>
+
+
 	
 </body>
 </html>
