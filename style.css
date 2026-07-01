@@ -237,7 +237,7 @@ nav a:active {
   pointer-events: auto;
 }
 
-#call img {
+#call svg {
   width: 20px;
   height: 20px;
   display: block;
