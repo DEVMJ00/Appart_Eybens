@@ -210,27 +210,20 @@ nav a:active {
   position: fixed;
   right: 20px;
   bottom: 20px;
-
   background: #6260FF;
   color: #E4E4FF;
-
   padding: 14px 18px;
   border-radius: 999px;
-
   text-decoration: none;
   font-weight: 700;
-
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-
   opacity: 0;
   transform: translateY(20px);
-
   pointer-events: none;
-
   transition:
     opacity 0.3s ease,
     transform 0.3s ease;
-
+  text-align: baseline;
   z-index: 999;
 }
 
@@ -240,3 +233,6 @@ nav a:active {
   pointer-events: auto;
 }
 
+#call img {
+  max-width : 20px; 
+}
