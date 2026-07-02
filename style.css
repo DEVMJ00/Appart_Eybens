@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
-
+root {
+    primary: #6260FF;
+    secondary: #E4E4FF,
+    
+}
 html {
     scroll-behavior: smooth;
 }
@@ -64,7 +68,7 @@ body {
 
 .section h2 {
   margin-top: 0;
-  color: #6260FF;
+  color: var(--primary);
 }
 
 .section h3 {
@@ -163,7 +167,6 @@ caption { caption-side: top; margin-bottom: 1em; font-style: italic; }
 
 
 /* NAV BAR */
-
 nav {
   display: flex;
   justify-content: space-evenly;
