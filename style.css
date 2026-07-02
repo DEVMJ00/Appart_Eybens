@@ -265,14 +265,14 @@ nav a:active {
     font-size: 22px;
     cursor: pointer;
     opacity: 0;
-    visibility: hidden;
+    /* visibility: hidden; */
     z-index: 9999;
 }
 
 #topButton.show {
     opacity: 1;
     transform: translateY(0);
-    visibility: visible;
+    pointer-events: auto;
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
 }
 
