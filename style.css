@@ -256,6 +256,7 @@ nav a:active {
     border-radius: 100px;
     background: #6260FF;
     color: #E4E4FF;
+  transform: translateY(50px);
     transition:
       opacity 0.3s ease,
       transform 0.3s ease;
