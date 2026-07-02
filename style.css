@@ -2,9 +2,13 @@
 
 
 :root {
+
+    /*
     --primary: #6260FF;
     --secondary: #E4E4FF;
-    /* #FCDB32 ; color : #141D38;*/
+    */
+    --primary: #FCDB32; 
+    --secondary: #141D38;
 }
 
 html {
@@ -265,8 +269,8 @@ nav a:active {
     height: 50px;
     border: solid 2px var(--primary);
     border-radius: 40px;
-    background: var(--primary);
-    color: var(--secondary);
+    background: var(--secondary);
+    color: var(--primary);
     transform: translateY(100px);
     transition:
       opacity 0.3s ease,
@@ -288,5 +292,5 @@ nav a:active {
 }
 
 #topButton i {
-    color: var(--secondary);
+    color: var(--primary);
 }
