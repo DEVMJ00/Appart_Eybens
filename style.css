@@ -256,14 +256,15 @@ nav a:active {
     border-radius: 100px;
     background: #6260FF;
     color: #E4E4FF;
-    
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease;
     font-weight: bold;
     text-align: center;
     font-size: 22px;
     cursor: pointer;
     opacity: 0;
     visibility: hidden;
-    /*	transition: opacity 0.5s ease, transform 0.5s ease;  */
     z-index: 9999;
 }
 
@@ -271,4 +272,8 @@ nav a:active {
     opacity: 1;
     visibility: visible;
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+#topButton i {
+    color: #E4E4FF;
 }
