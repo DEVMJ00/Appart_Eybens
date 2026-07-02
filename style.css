@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
-root {
-    primary: #6260FF;
-    secondary: #E4E4FF,
+
+
+:root {
+    --primary: #6260FF;
+    --secondary: #E4E4FF;
     /* #FCDB32 ; color : #141D38;*/
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -251,8 +254,6 @@ nav a:active {
   height: 20px;
   display: block;
   color: var(--secondary);
-}
-;
 }
 
 
