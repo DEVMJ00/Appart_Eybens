@@ -2,7 +2,7 @@
 root {
     primary: #6260FF;
     secondary: #E4E4FF,
-    
+    /* #FCDB32 ; color : #141D38;*/
 }
 html {
     scroll-behavior: smooth;
@@ -160,7 +160,7 @@ th, td {
   border-bottom: 1px solid #ddd;
 }
 
-th { background-color: #E4E4FF; }
+th { background-color: var(--secondary); }
 tfoot tr { font-weight: bold; }
 caption { caption-side: top; margin-bottom: 1em; font-style: italic; }
 
@@ -180,8 +180,8 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #6260FF;
-  background: #E4E4FF;
+  color: var(--primary);
+  background: var(--secondary);
   padding: 10px 16px;
   border-radius: 8px;
   font-size: 0.95rem;
@@ -193,8 +193,8 @@ nav a {
 }
 
 nav a:hover {
-  background: #6260FF;
-  color: #E4E4FF;
+  background: var(--primary);
+  color: var(--secondary);
   transform: translateY(-2px);
 }
 
@@ -217,8 +217,8 @@ nav a:active {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  background: #6260FF;
-  color: #E4E4FF;
+  background: var(--primary);
+  color: var(--secondary);
   padding: 14px 18px;
   border-radius: 999px;
   text-decoration: none;
@@ -250,7 +250,9 @@ nav a:active {
   width: 20px;
   height: 20px;
   display: block;
-  color: #E4E4FF;
+  color: var(--secondary);
+}
+;
 }
 
 
@@ -262,8 +264,8 @@ nav a:active {
     height: 50px;
     border: solid 2px var(--primary);
     border-radius: 40px;
-    background: #6260FF;
-    color: #E4E4FF;
+    background: var(--primary);
+    color: var(--secondary);
     transform: translateY(100px);
     transition:
       opacity 0.3s ease,
@@ -285,5 +287,5 @@ nav a:active {
 }
 
 #topButton i {
-    color: #E4E4FF;
+    color: var(--secondary);
 }
